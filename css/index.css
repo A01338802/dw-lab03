@@ -39,6 +39,8 @@ body {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
+    border-top:solid 2px;
+    padding-top:5px;
   }
 }
 
@@ -72,15 +74,57 @@ body {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
+    border-top:solid 2px;
+    padding-top:5px;
   }
   
 }
 
 @media screen and (min-width: 1025px) {
   
-  body {
-    background: blueviolet;
+  header {
+    display: flex;
+    align-content:center;
+    justify-content:space-around;
+    align-items: center;
 
+  }
+
+  nav {
+    background-color: grey;
+    margin: 5px;
+    padding: 1px;
+    display: flex;
+  justify-content: flex-end;
+  }
+  .menu {
+    list-style-type: none;
+    display: flex;
+    width:50%;
+    justify-content: space-around;
+    
+  }
+  .hamburger {
+    display:none;
+  }
+  .product {
+   border:solid 2px;
+   text-align: center;
+   margin-left: 5px;
+   margin-right: 5px;
+  }
+
+  main{
+    display: flex;
+  }
+  
+  .social{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    border-top:solid 2px;
+    padding-top:5px;
   }
   
 }
